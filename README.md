@@ -1,4 +1,3 @@
-"# test_beStar" 
 Для запуска выполните в консоли следующие команды:
 
 1. npm i -g gulp sequelize-cli
