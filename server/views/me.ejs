@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%=title%></title>
+	<link rel="stylesheet" href="public/stylesheets/styles_.css">
+	<script type="text/javascript" src="./public/javascripts/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="./public/javascripts/requests.js" async></script>
+</head>
+<body>
+	<header class="header">
+			<img class="header__logo" src="public/images/logo.png" alt="">
+			<div class="header__me">
+				<div class="header__user"><%=name%> <%=lastName%></div> 
+				<a class="header__logout" href="/login" onclick="logOut()">Выйти</a></li>
+			</div>
+	</header>
+	<div class="main">
+		<section class="main__user">
+			<h1 class="main__text"><%=title%></h1>
+			<p>Мы рады вас видеть, <%=name%> <%=lastName%></p>
+		</section>
+	</div>
+	<footer>
+		<div class="footer">
+			<div class="footer__left">
+				<p>Все права защищены &copy; 2016 =)</p>
+			</div>
+			<div class="footer__social">
+				<a href="/" class="footer__link facebook">Facebook</a>
+				<a href="/" class="footer__link twitter">Twitter</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

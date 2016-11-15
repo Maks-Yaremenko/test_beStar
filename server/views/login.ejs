@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Войти</title>
+	<link rel="stylesheet" href="public/stylesheets/styles_.css">
+	<script type="text/javascript" src="./public/javascripts/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="./public/javascripts/xmlhttprequest.js"></script>
+	<script type="text/javascript" src="./public/javascripts/requests.js" async></script>
+</head>
+<body>
+	<header class="header">
+			<img class="header__logo" src="public/images/logo.png" alt="">
+	</header>
+	<div class="main">
+		<section class="main__content">
+			<h1 class="main__text">Добро пожаловать</h1>
+			<form enctype="application/x-www-form-urlencoded" class="form__login" id="form__login">
+				<input class="input" type="text" id="login" name="login" placeholder="Логин">
+				<input class="input" type="password" id="password" name="password" placeholder="Пароль">
+				<div class="buttons__block">
+					<a href="/register" class="button__register"> Регистрация </a> 
+					<button class="submit" type="submit">Войти</button>
+				</div>
+			</form>
+		</section>
+	</div>
+	<footer>
+		<div class="footer">
+			<div class="footer__left">
+				<p>Все права защищены &copy; 2016 =)</p>
+			</div>
+			<div class="footer__social">
+				<a href="/" class="footer__link facebook">Facebook</a>
+				<a href="/" class="footer__link twitter">Twitter</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
