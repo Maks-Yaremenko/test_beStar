@@ -86,6 +86,7 @@ function isAuthenticated() {
 }
 
 function registerForm(req, res) {
+	if (req.cookies.auth) return res.redirect("/me");
 	res.render("register", {title: "Регистрация"});
 }
 
